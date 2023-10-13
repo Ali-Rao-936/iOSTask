@@ -1,0 +1,40 @@
+PODS:
+  - Alamofire (5.7.1)
+  - IQKeyboardManagerSwift (6.5.12)
+  - Kingfisher (7.8.1)
+  - ProgressHUD (13.7.2)
+  - ReachabilitySwift (5.0.0)
+  - SwiftEntryKit (2.0.0)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - ProgressHUD
+  - ReachabilitySwift
+  - SwiftEntryKit
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - ProgressHUD
+    - ReachabilitySwift
+    - SwiftEntryKit
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
+  IQKeyboardManagerSwift: 371b08cb39664fb56030f5345c815a4ffc74bbc0
+  Kingfisher: 63f677311d36a3473f6b978584f8a3845d023dc5
+  ProgressHUD: 093d24ca970f191744017bee2649e37d0cd1c5b9
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  SwiftEntryKit: 61b5fa36f34a97dd8013e48a7345bc4c4720be9a
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: f98471c172a0ab61a9c0eeca42ef545f8d2ce86d
+
+COCOAPODS: 1.11.3
