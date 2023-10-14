@@ -23,14 +23,15 @@ class DetailsViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         setBackButton()
-        setupNavBar(name: "News Details")
+        
         setDetails()
     }
     
 
     func setDetails(){
         self.imgNews.setImage(with: article?.urlToImage, placeholder: Utility.getPlaceHolder())
-        self.nameLable.text = article?.source?.name
+        //self.nameLable.text = article?.source?.name
+        setupNavBar(name: article?.source?.name ?? "News Details")
         self.authorNameLable.text = article?.author
         self.titleLable.text = article?.title
         self.descriptionLable.text = article?.description

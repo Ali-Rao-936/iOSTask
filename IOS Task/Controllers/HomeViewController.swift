@@ -9,6 +9,9 @@ import UIKit
 
 class HomeViewController: UIViewController {
     
+    let categoriesList = ["Trending", "Technology", "Sports", "Politics", "Weather"]
+    
+    @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet var tableView: UITableView!
     @IBOutlet var searchBar: UISearchBar!
     
@@ -32,6 +35,11 @@ class HomeViewController: UIViewController {
         tableView.registerCell(identifier: "NewsItemTableViewCell")
         tableView.delegate = self
         tableView.dataSource = self
+        
+        // collection view setup
+        collectionView.registerCell(identifier: "CategoryItemCollectionCell")
+        collectionView.delegate = self
+        collectionView.dataSource = self
         
         // search
         searchBar.delegate = self
@@ -68,6 +76,20 @@ extension HomeViewController : UITableViewDelegate, UITableViewDataSource {
         vc.article = viewModel.newsList?[indexPath.row]
         self.navigationController?.pushViewController(vc, animated: true)
     }
+}
+
+extension HomeViewController : UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return categoriesList.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CategoryItemCollectionCell", for: indexPath) as! CategoryItemCollectionCell
+        
+        return cell
+    }
+    
+    
 }
 
 extension HomeViewController : UISearchBarDelegate {

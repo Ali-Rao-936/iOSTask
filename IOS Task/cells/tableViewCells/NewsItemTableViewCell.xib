@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -18,15 +18,15 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NewsItemTableViewCell" rowHeight="271" id="KGk-i7-Jjw" customClass="NewsItemTableViewCell" customModule="IOS_Task" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="402" height="271"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NewsItemTableViewCell" rowHeight="500" id="KGk-i7-Jjw" customClass="NewsItemTableViewCell" customModule="IOS_Task" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="438" height="500"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="402" height="271"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="438" height="500"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GhA-pX-Qiw">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="271"/>
+                        <rect key="frame" x="5" y="0.0" width="428" height="490"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w2B-su-bZR">
                                 <rect key="frame" x="0.0" y="15" width="42" height="21"/>
@@ -41,9 +41,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="H4O-Hk-9FN">
-                                <rect key="frame" x="0.0" y="63" width="402" height="160"/>
+                                <rect key="frame" x="0.0" y="63" width="428" height="360"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="160" id="syU-1P-H6M"/>
+                                    <constraint firstAttribute="height" constant="360" id="syU-1P-H6M"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -51,14 +51,15 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RDz-0h-Gyc">
-                                <rect key="frame" x="0.0" y="231" width="402" height="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RDz-0h-Gyc">
+                                <rect key="frame" x="0.0" y="431" width="428" height="33.666666666666686"/>
+                                <string key="text">You can't use them in the way you can use them in Xcode 11. But you could export the symbols you want to use and add them as regular assert to your </string>
                                 <fontDescription key="fontDescription" name="Urbanist-Medium" family="Urbanist" pointSize="14"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ueV-xJ-T1x">
-                                <rect key="frame" x="373" y="250.99999999999997" width="29" height="14.666666666666657"/>
+                                <rect key="frame" x="399" y="471.33333333333331" width="29" height="14.666666666666686"/>
                                 <fontDescription key="fontDescription" name="Urbanist-Medium" family="Urbanist" pointSize="12"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -73,9 +74,10 @@
                             <constraint firstItem="w2B-su-bZR" firstAttribute="leading" secondItem="GhA-pX-Qiw" secondAttribute="leading" id="F1L-GD-ukW"/>
                             <constraint firstItem="29L-s9-1RZ" firstAttribute="leading" secondItem="GhA-pX-Qiw" secondAttribute="leading" id="FEl-2H-nDE"/>
                             <constraint firstItem="29L-s9-1RZ" firstAttribute="top" secondItem="w2B-su-bZR" secondAttribute="bottom" constant="3" id="Gr3-oK-3md"/>
-                            <constraint firstItem="ueV-xJ-T1x" firstAttribute="top" secondItem="RDz-0h-Gyc" secondAttribute="bottom" constant="3" id="QGQ-Oj-eFg"/>
+                            <constraint firstAttribute="bottom" secondItem="ueV-xJ-T1x" secondAttribute="bottom" constant="4" id="HDW-nc-JMh"/>
                             <constraint firstItem="H4O-Hk-9FN" firstAttribute="top" secondItem="29L-s9-1RZ" secondAttribute="bottom" constant="8" id="VQ2-c8-bhO"/>
                             <constraint firstAttribute="trailing" secondItem="ueV-xJ-T1x" secondAttribute="trailing" id="fna-Jg-DjJ"/>
+                            <constraint firstAttribute="height" constant="490" id="kXy-tD-6Wg"/>
                             <constraint firstItem="w2B-su-bZR" firstAttribute="top" secondItem="GhA-pX-Qiw" secondAttribute="top" constant="15" id="oKU-Cn-3QG"/>
                             <constraint firstAttribute="trailing" secondItem="H4O-Hk-9FN" secondAttribute="trailing" id="znq-Ue-hLO"/>
                         </constraints>
@@ -84,8 +86,8 @@
                 <constraints>
                     <constraint firstItem="GhA-pX-Qiw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Wor-us-chW"/>
                     <constraint firstAttribute="bottom" secondItem="GhA-pX-Qiw" secondAttribute="bottom" id="itU-ei-fsd"/>
-                    <constraint firstAttribute="trailing" secondItem="GhA-pX-Qiw" secondAttribute="trailing" id="kQK-zF-3La"/>
-                    <constraint firstItem="GhA-pX-Qiw" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="pOr-2E-uOL"/>
+                    <constraint firstAttribute="trailing" secondItem="GhA-pX-Qiw" secondAttribute="trailing" constant="5" id="kQK-zF-3La"/>
+                    <constraint firstItem="GhA-pX-Qiw" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="pOr-2E-uOL"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
@@ -96,7 +98,7 @@
                 <outlet property="timeLable" destination="ueV-xJ-T1x" id="n8a-iB-S2V"/>
                 <outlet property="titleLable" destination="RDz-0h-Gyc" id="ceD-VW-gmt"/>
             </connections>
-            <point key="canvasLocation" x="178.62595419847327" y="100.35211267605634"/>
+            <point key="canvasLocation" x="206.10687022900763" y="180.98591549295776"/>
         </tableViewCell>
     </objects>
     <resources>

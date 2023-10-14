@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		2C38B6F05EB4F9EB90E110C9 /* Pods_IOS_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9855E78F74C7E7A1994A4418 /* Pods_IOS_Task.framework */; };
 		3F489F774A9BBE7FA4A2E082 /* Pods_IOS_Task_IOS_TaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091FA55DC543BAF03E53C8B0 /* Pods_IOS_Task_IOS_TaskUITests.framework */; };
+		5DEB36482ADB24E20056CC6C /* CategoryItemCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEB36462ADB24E20056CC6C /* CategoryItemCollectionCell.swift */; };
+		5DEB36492ADB24E20056CC6C /* CategoryItemCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DEB36472ADB24E20056CC6C /* CategoryItemCollectionCell.xib */; };
 		9FEB0F39359C9B0A547E9FBB /* Pods_IOS_TaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8674573DE0F52613D9956083 /* Pods_IOS_TaskTests.framework */; };
 		E91E57522ADACA6500314EA4 /* NewsItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91E57502ADACA6500314EA4 /* NewsItemTableViewCell.swift */; };
 		E91E57532ADACA6500314EA4 /* NewsItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E91E57512ADACA6500314EA4 /* NewsItemTableViewCell.xib */; };
@@ -89,6 +91,8 @@
 		0EC7A9277828B061B179A47E /* Pods-IOS TaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS TaskTests.debug.xcconfig"; path = "Target Support Files/Pods-IOS TaskTests/Pods-IOS TaskTests.debug.xcconfig"; sourceTree = "<group>"; };
 		25C46CC389AC93FDF4BD906A /* Pods-IOS Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS Task.debug.xcconfig"; path = "Target Support Files/Pods-IOS Task/Pods-IOS Task.debug.xcconfig"; sourceTree = "<group>"; };
 		32A9B807285B328F7F9A87C7 /* Pods-IOS Task-IOS TaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS Task-IOS TaskUITests.release.xcconfig"; path = "Target Support Files/Pods-IOS Task-IOS TaskUITests/Pods-IOS Task-IOS TaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5DEB36462ADB24E20056CC6C /* CategoryItemCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemCollectionCell.swift; sourceTree = "<group>"; };
+		5DEB36472ADB24E20056CC6C /* CategoryItemCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryItemCollectionCell.xib; sourceTree = "<group>"; };
 		771CBD947AE097E3738F3E62 /* Pods-IOS TaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS TaskTests.release.xcconfig"; path = "Target Support Files/Pods-IOS TaskTests/Pods-IOS TaskTests.release.xcconfig"; sourceTree = "<group>"; };
 		8674573DE0F52613D9956083 /* Pods_IOS_TaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOS_TaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9855E78F74C7E7A1994A4418 /* Pods_IOS_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOS_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -194,9 +198,19 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		5DEB36452ADB24A50056CC6C /* collectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				5DEB36462ADB24E20056CC6C /* CategoryItemCollectionCell.swift */,
+				5DEB36472ADB24E20056CC6C /* CategoryItemCollectionCell.xib */,
+			);
+			path = collectionViewCells;
+			sourceTree = "<group>";
+		};
 		E91E574E2ADACA3A00314EA4 /* cells */ = {
 			isa = PBXGroup;
 			children = (
+				5DEB36452ADB24A50056CC6C /* collectionViewCells */,
 				E91E574F2ADACA4200314EA4 /* tableViewCells */,
 			);
 			path = cells;
@@ -501,6 +515,7 @@
 			files = (
 				E9CF121A2AD95E0300004F94 /* LaunchScreen.storyboard in Resources */,
 				E91E575B2ADACBC900314EA4 /* Urbanist-Regular.ttf in Resources */,
+				5DEB36492ADB24E20056CC6C /* CategoryItemCollectionCell.xib in Resources */,
 				E9CF12B02AD9677E00004F94 /* Colors.xcassets in Resources */,
 				E91E575E2ADACBC900314EA4 /* Urbanist-Medium.ttf in Resources */,
 				E9CF12172AD95E0300004F94 /* Assets.xcassets in Resources */,
@@ -656,6 +671,7 @@
 				E9CF12722AD95EFC00004F94 /* Date+Extension.swift in Sources */,
 				E9CF12AC2AD9654400004F94 /* DetailsViewController.swift in Sources */,
 				E9CF127D2AD95EFC00004F94 /* Dictionary+Extension.swift in Sources */,
+				5DEB36482ADB24E20056CC6C /* CategoryItemCollectionCell.swift in Sources */,
 				E9CF12792AD95EFC00004F94 /* PaddingLabel.swift in Sources */,
 				E9CF12AE2AD9658400004F94 /* HomeViewModel.swift in Sources */,
 				E9CF12852AD95EFC00004F94 /* Utility.swift in Sources */,
