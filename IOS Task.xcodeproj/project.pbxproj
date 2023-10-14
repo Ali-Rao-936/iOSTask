@@ -10,6 +10,13 @@
 		2C38B6F05EB4F9EB90E110C9 /* Pods_IOS_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9855E78F74C7E7A1994A4418 /* Pods_IOS_Task.framework */; };
 		3F489F774A9BBE7FA4A2E082 /* Pods_IOS_Task_IOS_TaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091FA55DC543BAF03E53C8B0 /* Pods_IOS_Task_IOS_TaskUITests.framework */; };
 		9FEB0F39359C9B0A547E9FBB /* Pods_IOS_TaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8674573DE0F52613D9956083 /* Pods_IOS_TaskTests.framework */; };
+		E91E57522ADACA6500314EA4 /* NewsItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91E57502ADACA6500314EA4 /* NewsItemTableViewCell.swift */; };
+		E91E57532ADACA6500314EA4 /* NewsItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E91E57512ADACA6500314EA4 /* NewsItemTableViewCell.xib */; };
+		E91E575A2ADACBC900314EA4 /* Urbanist-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E91E57552ADACBC900314EA4 /* Urbanist-Bold.ttf */; };
+		E91E575B2ADACBC900314EA4 /* Urbanist-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E91E57562ADACBC900314EA4 /* Urbanist-Regular.ttf */; };
+		E91E575C2ADACBC900314EA4 /* Urbanist-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E91E57572ADACBC900314EA4 /* Urbanist-SemiBold.ttf */; };
+		E91E575D2ADACBC900314EA4 /* Urbanist-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E91E57582ADACBC900314EA4 /* Urbanist-Light.ttf */; };
+		E91E575E2ADACBC900314EA4 /* Urbanist-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E91E57592ADACBC900314EA4 /* Urbanist-Medium.ttf */; };
 		E9CF120E2AD95E0200004F94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CF120D2AD95E0200004F94 /* AppDelegate.swift */; };
 		E9CF12102AD95E0200004F94 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CF120F2AD95E0200004F94 /* SceneDelegate.swift */; };
 		E9CF12122AD95E0200004F94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CF12112AD95E0200004F94 /* ViewController.swift */; };
@@ -39,7 +46,6 @@
 		E9CF12792AD95EFC00004F94 /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CF12542AD95EFC00004F94 /* PaddingLabel.swift */; };
 		E9CF127A2AD95EFC00004F94 /* UISegmentedControl+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CF12552AD95EFC00004F94 /* UISegmentedControl+Extension.swift */; };
 		E9CF127B2AD95EFC00004F94 /* BubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CF12562AD95EFC00004F94 /* BubbleView.swift */; };
-		E9CF127C2AD95EFC00004F94 /* UIPageControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CF12572AD95EFC00004F94 /* UIPageControllerExtension.swift */; };
 		E9CF127D2AD95EFC00004F94 /* Dictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CF12582AD95EFC00004F94 /* Dictionary+Extension.swift */; };
 		E9CF127E2AD95EFC00004F94 /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CF12592AD95EFC00004F94 /* Data+Extension.swift */; };
 		E9CF127F2AD95EFC00004F94 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CF125A2AD95EFC00004F94 /* UIImageExtension.swift */; };
@@ -87,6 +93,13 @@
 		8674573DE0F52613D9956083 /* Pods_IOS_TaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOS_TaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9855E78F74C7E7A1994A4418 /* Pods_IOS_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOS_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D017E3CEB3F69D54601293C1 /* Pods-IOS Task-IOS TaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS Task-IOS TaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-IOS Task-IOS TaskUITests/Pods-IOS Task-IOS TaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E91E57502ADACA6500314EA4 /* NewsItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsItemTableViewCell.swift; sourceTree = "<group>"; };
+		E91E57512ADACA6500314EA4 /* NewsItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsItemTableViewCell.xib; sourceTree = "<group>"; };
+		E91E57552ADACBC900314EA4 /* Urbanist-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Bold.ttf"; sourceTree = "<group>"; };
+		E91E57562ADACBC900314EA4 /* Urbanist-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Regular.ttf"; sourceTree = "<group>"; };
+		E91E57572ADACBC900314EA4 /* Urbanist-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-SemiBold.ttf"; sourceTree = "<group>"; };
+		E91E57582ADACBC900314EA4 /* Urbanist-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Light.ttf"; sourceTree = "<group>"; };
+		E91E57592ADACBC900314EA4 /* Urbanist-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Medium.ttf"; sourceTree = "<group>"; };
 		E9CF120A2AD95E0200004F94 /* IOS Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9CF120D2AD95E0200004F94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9CF120F2AD95E0200004F94 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -120,7 +133,6 @@
 		E9CF12542AD95EFC00004F94 /* PaddingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
 		E9CF12552AD95EFC00004F94 /* UISegmentedControl+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISegmentedControl+Extension.swift"; sourceTree = "<group>"; };
 		E9CF12562AD95EFC00004F94 /* BubbleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleView.swift; sourceTree = "<group>"; };
-		E9CF12572AD95EFC00004F94 /* UIPageControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIPageControllerExtension.swift; sourceTree = "<group>"; };
 		E9CF12582AD95EFC00004F94 /* Dictionary+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extension.swift"; sourceTree = "<group>"; };
 		E9CF12592AD95EFC00004F94 /* Data+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Extension.swift"; sourceTree = "<group>"; };
 		E9CF125A2AD95EFC00004F94 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
@@ -182,6 +194,35 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		E91E574E2ADACA3A00314EA4 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				E91E574F2ADACA4200314EA4 /* tableViewCells */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		E91E574F2ADACA4200314EA4 /* tableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				E91E57502ADACA6500314EA4 /* NewsItemTableViewCell.swift */,
+				E91E57512ADACA6500314EA4 /* NewsItemTableViewCell.xib */,
+			);
+			path = tableViewCells;
+			sourceTree = "<group>";
+		};
+		E91E57542ADACBC900314EA4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E91E57552ADACBC900314EA4 /* Urbanist-Bold.ttf */,
+				E91E57562ADACBC900314EA4 /* Urbanist-Regular.ttf */,
+				E91E57572ADACBC900314EA4 /* Urbanist-SemiBold.ttf */,
+				E91E57582ADACBC900314EA4 /* Urbanist-Light.ttf */,
+				E91E57592ADACBC900314EA4 /* Urbanist-Medium.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		E9CF12012AD95E0200004F94 = {
 			isa = PBXGroup;
 			children = (
@@ -207,6 +248,8 @@
 		E9CF120C2AD95E0200004F94 /* IOS Task */ = {
 			isa = PBXGroup;
 			children = (
+				E91E57542ADACBC900314EA4 /* Fonts */,
+				E91E574E2ADACA3A00314EA4 /* cells */,
 				E9CF12A82AD964F800004F94 /* ViewModels */,
 				E9CF12A72AD964EC00004F94 /* Controllers */,
 				E9CF12A42AD9647500004F94 /* models */,
@@ -283,7 +326,6 @@
 				E9CF12542AD95EFC00004F94 /* PaddingLabel.swift */,
 				E9CF12552AD95EFC00004F94 /* UISegmentedControl+Extension.swift */,
 				E9CF12562AD95EFC00004F94 /* BubbleView.swift */,
-				E9CF12572AD95EFC00004F94 /* UIPageControllerExtension.swift */,
 				E9CF12582AD95EFC00004F94 /* Dictionary+Extension.swift */,
 				E9CF12592AD95EFC00004F94 /* Data+Extension.swift */,
 				E9CF125A2AD95EFC00004F94 /* UIImageExtension.swift */,
@@ -458,9 +500,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9CF121A2AD95E0300004F94 /* LaunchScreen.storyboard in Resources */,
+				E91E575B2ADACBC900314EA4 /* Urbanist-Regular.ttf in Resources */,
 				E9CF12B02AD9677E00004F94 /* Colors.xcassets in Resources */,
+				E91E575E2ADACBC900314EA4 /* Urbanist-Medium.ttf in Resources */,
 				E9CF12172AD95E0300004F94 /* Assets.xcassets in Resources */,
+				E91E575A2ADACBC900314EA4 /* Urbanist-Bold.ttf in Resources */,
+				E91E575C2ADACBC900314EA4 /* Urbanist-SemiBold.ttf in Resources */,
 				E9CF12152AD95E0200004F94 /* Main.storyboard in Resources */,
+				E91E575D2ADACBC900314EA4 /* Urbanist-Light.ttf in Resources */,
+				E91E57532ADACA6500314EA4 /* NewsItemTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,7 +646,6 @@
 				E9CF127B2AD95EFC00004F94 /* BubbleView.swift in Sources */,
 				E9CF127E2AD95EFC00004F94 /* Data+Extension.swift in Sources */,
 				E9CF12A62AD9648400004F94 /* NewsResponse.swift in Sources */,
-				E9CF127C2AD95EFC00004F94 /* UIPageControllerExtension.swift in Sources */,
 				E9CF12AA2AD9651800004F94 /* HomeViewController.swift in Sources */,
 				E9CF127A2AD95EFC00004F94 /* UISegmentedControl+Extension.swift in Sources */,
 				E9CF120E2AD95E0200004F94 /* AppDelegate.swift in Sources */,
@@ -613,6 +660,7 @@
 				E9CF12AE2AD9658400004F94 /* HomeViewModel.swift in Sources */,
 				E9CF12852AD95EFC00004F94 /* Utility.swift in Sources */,
 				E9CF12652AD95EFC00004F94 /* Constants.swift in Sources */,
+				E91E57522ADACA6500314EA4 /* NewsItemTableViewCell.swift in Sources */,
 				E9CF12772AD95EFC00004F94 /* String+Extension.swift in Sources */,
 				E9CF126B2AD95EFC00004F94 /* RoundedCornerImage.swift in Sources */,
 				E9CF12752AD95EFC00004F94 /* URL+Extension.swift in Sources */,
@@ -804,6 +852,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GST3AB35D8;
@@ -821,6 +870,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.khaleejtimes.test.IOS-Task";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -833,6 +883,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GST3AB35D8;
@@ -850,6 +901,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.khaleejtimes.test.IOS-Task";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
