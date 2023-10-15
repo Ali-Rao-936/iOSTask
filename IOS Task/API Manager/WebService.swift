@@ -38,7 +38,7 @@ class WebService {
         }
         else{
             Utility.dismissProgress()
-            failed("No network")
+            failed("No Internet Connection")
             return
         }
     }
@@ -92,11 +92,4 @@ class WebService {
         return headers
     }
     
-//    func handleSessionOut(){
-//        Utility.showSuccessSnackViewWithCompletion(message: "Session Out! Please Login to Countinue", iconName: "",color: UIColor.init(hex: "ba000d")) {
-//            AppPreferences.clearUserData()
-//            Utility.gotoHome()
-//        }
-//
-//    }
 }

@@ -2,7 +2,7 @@
 //  DetailsViewController.swift
 //  IOS Task
 //
-//  Created by Qoo on 13/10/2023.
+//  Created by Ali on 13/10/2023.
 //
 
 import UIKit
@@ -30,7 +30,6 @@ class DetailsViewController: UIViewController {
 
     func setDetails(){
         self.imgNews.setImage(with: article?.urlToImage, placeholder: Utility.getPlaceHolder())
-        //self.nameLable.text = article?.source?.name
         setupNavBar(name: article?.source?.name ?? "News Details")
         self.authorNameLable.text = article?.author
         self.titleLable.text = article?.title

@@ -2,7 +2,7 @@
 //  PaddingLabel.swift
 //  FunSports
 //
-//  Created by Qoo on 26/06/2023.
+//  Created by Ali on 26/06/2023.
 //
 
 import Foundation

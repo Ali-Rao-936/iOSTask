@@ -2,7 +2,7 @@
 //  NewsItemTableViewCell.swift
 //  IOS Task
 //
-//  Created by Qoo on 14/10/2023.
+//  Created by Ali on 14/10/2023.
 //
 
 import UIKit
