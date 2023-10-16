@@ -13,11 +13,6 @@ class Colors: NSObject {
 
     }
     
-    class func greenColor()->UIColor
-    {
-        return UIColor(named: "GreenColor")!
-    }
-    
     class func accentColor()-> UIColor
     {
 
@@ -26,5 +21,8 @@ class Colors: NSObject {
     }
    
     
-    
+    class func grayTextColor()->UIColor
+    {
+        return UIColor(named: "TextColor")!
+    }
 }

@@ -16,9 +16,20 @@ class CategoryItemCollectionCell: UICollectionViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        
     }
-
-  
     
+    override var isSelected: Bool{
+        didSet{
+            if isSelected {
+                lineView.backgroundColor = .black
+                nameLable.textColor = .black
+            }else{
+                lineView.backgroundColor = .white
+                nameLable.textColor = Colors.grayTextColor()
+
+            }
+        }
+    }
     
 }

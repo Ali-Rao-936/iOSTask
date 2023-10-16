@@ -10,6 +10,7 @@ import UIKit
 class HomeViewController: UIViewController {
     
     let categoriesList = ["Trending", "Sports", "Politics", "Weather", "Technology"]
+    let categoriesIconsList = ["chart.line.uptrend.xyaxis.circle", "figure.disc.sports", "person.icloud", "cloud.sun.rain.fill", "internaldrive"]
     
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet var tableView: UITableView!
@@ -43,6 +44,8 @@ class HomeViewController: UIViewController {
         
         // search
         searchBar.delegate = self
+        
+        collectionView.selectItem(at: IndexPath(row: 0, section: 0), animated: true, scrollPosition: .left)
         
     }
     

@@ -44,6 +44,7 @@ extension HomeViewController : UICollectionViewDelegate, UICollectionViewDataSou
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CategoryItemCollectionCell", for: indexPath) as! CategoryItemCollectionCell
         cell.nameLable.text = categoriesList[indexPath.row]
+        cell.imgCategory.image = UIImage(systemName: categoriesIconsList[indexPath.row])
         return cell
     }
     
@@ -69,7 +70,7 @@ extension HomeViewController : UISearchBarDelegate {
     
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         if searchText == "" {
-            searchBar.resignFirstResponder()
+            searchBar.perform(#selector(self.resignFirstResponder), with: nil, afterDelay: 0.1)
         }
     }
 }

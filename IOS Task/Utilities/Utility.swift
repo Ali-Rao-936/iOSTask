@@ -110,13 +110,6 @@ class Utility: NSObject {
     
   
     
-//    class func gotoHome(){
-//        let homeNav = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "TabBar")
-//        let appDelegate = UIApplication.shared.delegate as! AppDelegate
-//        appDelegate.window?.rootViewController = homeNav
-//    }
-    
-    
     static func timeInMins(date: String) -> String{
         if(date == ""){
             return ""
